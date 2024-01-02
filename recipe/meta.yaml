@@ -1,5 +1,5 @@
 {% set name = "userinput" %}
-{% set version = "1.0.21" %}
+{% set version = "1.0.22" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/userinput-{{ version }}.tar.gz
-  sha256: 26432f745b052d48eac60a836dda470f79a51b1f4b936f76020250b93238c75f
+  sha256: b74ef2221c3749ecfd845763caa4d4f7d5554e4ab5c5828f775f10566b401690
 
 build:
   noarch: python
